@@ -1,0 +1,52 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background-image: url('your-hero-image.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.content, .services, .contact {
+    padding: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Add more CSS styles to customize your website */
